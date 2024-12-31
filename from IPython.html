@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>notepad</title>
+</head>
+<style type="text/css">
+ol,ul{
+display:block;
+list-style-type:none;
+margin:3px;
+}
+</style><body>
+<div>from IPython.core.display import HTML&#13;<br>
+&#13;<br>
+# Create a simple webpage content as a string&#13;<br>
+html_content = """&#13;<br>
+&lt;!DOCTYPE html&gt;&#13;<br>
+&lt;html lang="en"&gt;&#13;<br>
+&lt;head&gt;&#13;<br>
+&nbsp;&nbsp;&nbsp; &lt;meta charset="UTF-8"&gt;&#13;<br>
+&nbsp;&nbsp;&nbsp; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;&#13;<br>
+&nbsp;&nbsp;&nbsp; &lt;title&gt;Amy's Special Page&lt;/title&gt;&#13;<br>
+&nbsp;&nbsp;&nbsp; &lt;style&gt;&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; body {&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; background-color: #fef8e6;&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; font-family: Arial, sans-serif;&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; color: #444;&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; text-align: center;&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; padding: 50px;&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; h1 {&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; color: #ff6961;&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; p {&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; font-size: 18px;&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .heart {&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; color: #ff69b4;&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; font-size: 50px;&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; margin: 20px;&#13;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }&#13;<br>
+&nbsp;&nbsp;&nbsp; &lt;/style&gt;&#13;<br>
+&lt;/head&gt;&#13;<br>
+&lt;body&gt;&#13;<br>
+&nbsp;&nbsp;&nbsp; &lt;h1&gt;To My Dearest Amy&lt;/h1&gt;&#13;<br>
+&nbsp;&nbsp;&nbsp; &lt;p&gt;Hey, Amy&#23453;&#36125;&#65292;&#21018;&#21018;&#30340;&#38169;&#35823;&#26159;&#25105;&#19981;&#22815;&#19978;&#24515;&#12290;&lt;/p&gt;&#13;<br>
+&nbsp;&nbsp;&nbsp; &lt;p&gt;&#25152;&#20197;&#29305;&#22320;&#20570;&#20102;&#36825;&#20010;&#23567;&#39029;&#38754;&#26469;&#21521;&#20320;&#36947;&#27465;&#12290;&lt;/p&gt;&#13;<br>
+&nbsp;&nbsp;&nbsp; &lt;p class="heart"&gt;&#10084;&#10084;&#10084;&lt;/p&gt;&#13;<br>
+&nbsp;&nbsp;&nbsp; &lt;p&gt;&#26080;&#35770;&#20309;&#26102;&#20309;&#22320;&#65292;&#20320;&#37117;&#26159;&#25105;&#26368;&#29305;&#21035;&#30340;&#23384;&#22312;&#12290;&lt;/p&gt;&#13;<br>
+&nbsp;&nbsp;&nbsp; &lt;p&gt;&#25105;&#20250;&#19968;&#30452;&#23456;&#30528;&#20320;&#65292;&#21700;&#30528;&#20320;&#65292;&#30452;&#21040;&#20320;&#19981;&#29983;&#27668;&#20026;&#27490;&#12290;&lt;/p&gt;&#13;<br>
+&nbsp;&nbsp;&nbsp; &lt;p&gt;&#8212;&#8212; &#20320;&#30340; Jan&lt;/p&gt;&#13;<br>
+&lt;/body&gt;&#13;<br>
+&lt;/html&gt;&#13;<br>
+"""&#13;<br>
+&#13;<br>
+# Save the webpage content to a local HTML file&#13;<br>
+file_path = "/mnt/data/amy_special_page.html"&#13;<br>
+with open(file_path, "w", encoding="utf-8") as file:&#13;<br>
+&nbsp;&nbsp;&nbsp; file.write(html_content)&#13;<br>
+&#13;<br>
+file_path<br>
+</div>
+</body>
+</html>
